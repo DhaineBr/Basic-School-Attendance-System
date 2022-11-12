@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student</title>
+    
+</head>
+<body>
+    <div class="left">
+        <a href="dashboard.html" style="text-decoration: none"><div class="dashboard" style="background-color: #da2328; border-style: hidden; border-radius: 15px; color: white;">
+        Dashboard</div></a><br>
+        <div class="student" style="background-color: white; border-style: hidden; border-radius: 15px; color: #da2328;">
+        Student</div><br>
+        <a href="faculty.html" style="text-decoration: none"><div class="faculty" style="background-color: #da2328; border-style: hidden; border-radius: 15px; color: white;">
+        Faculty</div></a><br><br><br>
+        <a href="index.html"><div style="margin: 20% 0 0 15%"><button type="button" id="sign_out"><img src="002 Sign out.png" width="25" style="margin: 0; width: 100%" ><br>Sign Out</button></div></a>
+    </div>
+
+    <div class="right">
+        
+        <fieldset id="top_field">
+            <p style="text-align: center; font-size: 2.5vw; padding: 0 10% 0 10%"><span id="clock"></span></p>
+            
+            <div class="radio_buttons" style="text-align: center; font-size: 1.75vw; width: 70%; padding: 10% 0 10% 0; font-weight: 600">
+                <input type="radio" id="in" name="in_or_out" style="cursor:pointer">
+                <label for="html">IN</label>&nbsp &nbsp &nbsp
+                <input type="radio" id="out" name="in_or_out" style="cursor:pointer">
+                <label for="html">OUT</label>
+
+            </div>
+
+
+            <div class="student_data" style="font-size: 1.5vw; width: 70%">
+                Serial Code: <span id="student_srcode"> N/A</span><br><br>
+                Name: <span id="student_name"></span> N/A<br><br>
+                Section: <span id="student_section"> N/A</span><br><br>
+                Age: <span id="student_age"> N/A</span><br><br>
+                Sex: <span id="student_sex"> N/A</span><br><br>
+
+            </div>
+            <script src="index.js"></script>
+
+            
+            
+            
+        </fieldset>
+    </div>
+    
+</body>
+</html>

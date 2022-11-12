@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    
+</head>
+<body>
+    <div class="left">
+        <div class="dashboard" style="background-color: white; border-style: hidden; border-radius: 15px; color: #da2328;">
+        Dashboard</div><br>
+        <a href="student.html" style="text-decoration: none;"><div class="student" style="background-color: #da2328; border-style: hidden; border-radius: 15px; color: white;">
+        Student</div><br></a>
+        <a href="faculty.html" style="text-decoration: none"><div class="faculty" style="background-color: #da2328; border-style: hidden; border-radius: 15px; color: white;">
+        Faculty</div></a><br><br><br>
+        <a href="index.html"><div style="margin: 20% 0 0 15%"><button type="button" id="sign_out"><img src="002 Sign out.png" width="25" style="margin: 0; width: 100%" ><br>Sign Out</button></div></a>
+    </div>
+
+    <div class="right">
+        
+        <fieldset id="top_field">
+            <p style="text-align: center; font-size: 2.5vw; padding: 0 10% 0 10%"><span id="clock"></span></p>
+            <script src="index.js"></script>
+            <div class="student_dashboard">
+                <div class="total_students"><span id="total_s" style="font-size: 3vw; font-weight:600">000</span><br>Total Students</div>
+                <div class="student_on_time"><span id="s_on_time" style="font-size: 3vw; font-weight:600">000</span><br>On Time</div>
+                <div class="student_late"><span id="s_late" style="font-size: 3vw; font-weight:600">000</span><br>Late</div>
+                <div class="student_absent"><span id="s_absent" style="font-size: 3vw; font-weight:600">000</span><br>Absent</div> 
+                <br><br><br><br>
+                <div class="total_employees"><span id="total_e" style="font-size: 3vw; font-weight:600">000</span><br>Total Employees</div>
+                <div class="employee_on_time"><span id="e_on_time" style="font-size: 3vw; font-weight:600">000</span><br>On Time</div>
+                <div class="employee_late"><span id="e_late" style="font-size: 3vw; font-weight:600">000</span><br>Late</div>
+                <div class="employee_absent"><span id="e_absent" style="font-size: 3vw; font-weight:600">000</span><br>Absent</div> 
+
+            </div>
+            <hr>
+
+            <div id="myChart" style="width:200;margin: 5% 0 5% 0"></div>
+
+            <script src="index.js"></script>
+            
+
+        </fieldset>
+
+        
+        
+    </div>
+   
+</body>
+</html>
